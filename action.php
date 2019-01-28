@@ -1,41 +1,4 @@
-<?php
-// session_start();
-// $roll='170040064';
-// $name=$_POST['name'];
-// $cno=$_POST['cno'];
-// $sdate=$_POST['s_date'];
-// $edate=$_POST['e_date'];
-
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $dbname = "mess";
-
-// $days = round((strtotime($edate) - strtotime($sdate)) / (60 * 60 * 24)) + 1;
-// 		date_default_timezone_set('Asia/Kolkata');
-// 		$today = date('Y-m-d');
-// 		$after2 = (time() >= strtotime("17:00:00"));
-// echo $days ;
-// echo $after2;
-// // Create connection
-// $conn = new mysqli($servername, $username, $password, $dbname);
-// // Check connection
-// if ($conn->connect_error) {
-//     die("Connection failed: " . $conn->connect_error);
-// }
-
-// $sql = "INSERT INTO rebate (roll,name,cno,s_date,e_date)
-// VALUES ('$roll','$name','$cno','$sdate','$edate')";
-
-// if ($conn->query($sql) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-// }
-
-// $conn->close();
-// header( "refresh:2; url=../rebate/" );
-?>  
+  
 <!DOCTYPE html>
 <html lang="en">
 <meta name="theme-color" content="#000000">
